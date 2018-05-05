@@ -1,0 +1,78 @@
+/* Site Wide Style Reset */
+* {
+  color: #000;
+}
+
+/* Select Any body Element */
+body {
+  color: #222222;
+  margin: 0;
+}
+
+/* Select Any a Element */
+a {
+  color: #222222;
+  text-decoration: none;
+}
+
+/* Select Any a Element That Are Hovered Over */
+a:hover {
+  color: #222222;
+  text-decoration: underline;
+}
+
+/* Top Navigation Bar */
+/* Select Any ul Element With A Class Of Nav */
+ul.nav {
+  float: right;
+  margin-right: 25px;
+}
+
+/* Select Any li Element Nested Inside Any ul Element With A Class Of Nav */
+ul.nav li {
+  list-style: none;
+  display: inline-block;
+  text-align: right;
+  padding: 5px 10px 0 0;
+  vertical-align: bottom;
+  margin: 5px 5px 0 0;
+  font-size: 13px;
+}
+
+/* Select Any div Element With A Class Of fa */
+div.fa {
+  font-size: 20px;
+  vertical-align: top;
+  opacity: 0.7;
+  cursor: default;
+}
+
+/* Select Any div Element With A Class Of fa When Hovered Over */
+div.fa:hover {
+	opacity: 1.0;
+}
+
+/* Select Any span Element With A Class Of share */
+span.share {
+  background-color: #f2f2f2;
+  padding:7px 15px;
+  cursor: default;
+  position: relative;
+  top: -3px;
+}
+
+/* Select Any span Element With A Class Of share That Are Hovered Over */
+span.share:hover {
+  background-color: #e1e1e1;
+}
+
+/* Select Any img Elements With A Class Of profile_image */
+img.profile_image {
+	border-radius: 25px;
+	height: 32px;
+	width: 32px;
+	position: relative;
+	top: 9px;
+}
+
+/* Middle Search Bar */
